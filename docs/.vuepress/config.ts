@@ -6,6 +6,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'en-US',
   title: '孤舟钓客',
   description: 'Just playing around',
+  base: '/',
+  dest: './docs/.vuepress/dist',
 
   // 主题和它的配置
   theme: '@vuepress/theme-default',

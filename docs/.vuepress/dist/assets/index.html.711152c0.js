@@ -1,0 +1,1 @@
+const e={key:"v-9b6bc820",path:"/os_kernel/",title:"\u64CD\u4F5C\u7CFB\u7EDF",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646384797e3,contributors:[{name:"liuruyi",email:"guzhoudiaoke@126.com",commits:1}]},filePathRelative:"os_kernel/README.md"};export{e as data};

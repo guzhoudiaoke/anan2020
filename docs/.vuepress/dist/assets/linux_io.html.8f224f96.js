@@ -1,0 +1,1 @@
+const e={key:"v-3f55ed90",path:"/os_kernel/linux_io.html",title:"Linux IO",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646384797e3,contributors:[{name:"liuruyi",email:"guzhoudiaoke@126.com",commits:1}]},filePathRelative:"os_kernel/linux_io.md"};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-7770f5a0",path:"/os_kernel/alloc_page.html",title:"alloc_page",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646384797e3,contributors:[{name:"liuruyi",email:"guzhoudiaoke@126.com",commits:1}]},filePathRelative:"os_kernel/alloc_page.md"};export{e as data};

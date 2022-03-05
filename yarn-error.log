@@ -1,25 +1,30 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn docs:dev
+  /usr/bin/node /bin/yarn init
 
 PATH: 
-  /usr/local/bin:/usr/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/liuruyi/postgreSQL/bin
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/software/llvm-project/build/bin
 
 Yarn version: 
   1.22.17
 
 Node version: 
-  17.6.0
+  16.13.1
 
 Platform: 
   linux x64
 
 Trace: 
-  SyntaxError: /home/liuruyi/code/anan2020/package.json: Unexpected string in JSON at position 285
-      at JSON.parse (<anonymous>)
-      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
-      at Generator.next (<anonymous>)
-      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
-      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+  Error: canceled
+      at Interface.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:137143:13)
+      at Interface.emit (node:events:390:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:390:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
 
 npm manifest: 
   {
@@ -32,7 +37,7 @@ npm manifest:
     "license": "MIT",
     "devDependencies": {
       "vuepress": "^2.0.0-beta.36"
-    }
+    },
     "scripts": {
       "docs:dev": "vuepress dev docs",
       "docs:build": "vuepress build docs"
